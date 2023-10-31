@@ -1,0 +1,147 @@
+<html>
+    <head>
+        <title>
+            Client Details
+        </title>
+        <style>
+            body{
+                background-color: rgb(238, 100, 100);
+            }
+            label{
+                color: rgb(252, 176, 13);
+                font-size: 18px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            input{
+                width:350px;
+                height:30px;
+                border-color: rgb(238, 100, 100);
+                background-color: rgb(238, 100, 100);
+                border:0px ;
+                border-bottom: 1px solid black ;
+                align-items: end;
+            }
+            select{
+                width:350px;
+                height:30px;
+                border-color: rgb(238, 100, 100);
+                background-color: rgb(238, 100, 100);
+                border:0px ;
+                border-bottom: 1px solid black ;
+                align-items: end;
+
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+        <pre><h1>                         CLIENT DETAILS</h1></pre>
+        <pre><h3>                                  Enter the details of all incoming clients.</h3></pre>
+        <hr>
+        <label>
+            Client Name* 
+        </label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label>
+            Company*
+        </label>
+        <input type="text" reuired>
+        <br>
+        <br>
+        <label>
+            Title
+        </label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label>
+            Department*
+        </label>
+        <select>
+            <option>-Select-</option>
+            <option>Production</option>
+            <option>Manufacture</option>
+            <option>Developing</option>
+            <option>Testing</option>
+        </select>
+        <br>
+        <br>
+        <label>
+            Preferred contact method*
+        </label>
+        <label>
+            E mail
+        </label>
+        <input type="radio" name="yes" required>
+        <label>
+            Phone
+        </label>
+        <input type="radio" name="yes" required>
+        <br>
+        <br>
+        <label>
+            Company address*
+        </label>
+        <input type="text" placeholder="Street Address" required>
+        <br>
+        <br>
+        <input type="text" placeholder="Address Line 2" required>
+        <br>
+        <br>
+        <input type="text" placeholder="City" required>
+        <input type="text" placeholder="State/Religion/Province" required>
+        <br>
+        <br>
+        <input type="text" placeholder="Postal/Zip Code" required>
+        <select>
+            <option>Country</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>Brazil</option>
+            <option>China</option>
+            <option>Japan</option>
+        </select> 
+        <br>
+        <br>
+        <label>
+            Company website*
+        </label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label>
+            Company logo
+        </label>
+        <input type="file" placeholder="choose file">
+        <br>
+        <br>
+        <label>
+            Working Hours*
+        </label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label>
+            Working Days*
+        </label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label>
+            Billing Cycle*
+        </label>
+        <input type="date" required>
+        <br>
+        <br>
+        <label>
+            Additional Information
+        </label>
+        <input type="text" reuired>
+        <br>
+        <br>
+        <input type="submit" value="SUBMIT">
+        </form>
+    </body>
+</html>
